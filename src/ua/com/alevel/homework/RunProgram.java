@@ -32,74 +32,74 @@ public class RunProgram {
                     continue;
                 }
                 case 2: {
-//                    int size = parcelController.findAll().size();
-//                    if (size == 0) {
-//                        System.out.println("Nothing to update");
-//                        continue;
-//                    } else {
+                    int size = parcelController.findAll().size();
+                    if (size == 0) {
+                        System.out.println("Nothing to update");
+                        continue;
+                    } else {
                         updateParcel();
-//                    }
+                    }
                     continue;
                 }
                 case 3: {
-//                    int size = parcelController.findAll().size();
-//                    if (size == 0) {
-//                        System.out.println("Nothing to delete");
-//                        continue;
-//                    } else {
+                    int size = parcelController.findAll().size();
+                    if (size == 0) {
+                        System.out.println("Nothing to delete");
+                        continue;
+                    } else {
                         deleteParcel();
-//                    }
+                    }
                     continue;
                 }
                 case 4: {
-//                    int size = parcelController.findAll().size();
-//                    if (size == 0) {
-//                        System.out.println("Nothing to find");
-//                        continue;
-//                    } else {
+                    int size = parcelController.findAll().size();
+                    if (size == 0) {
+                        System.out.println("Nothing to find");
+                        continue;
+                    } else {
                         all();
-//                    }
+                    }
                     continue;
                 }
                 case 5: {
-//                    int size = parcelController.findAll().size();
-//                    if (size == 0) {
-//                        System.out.println("Nothing to find");
-//                        continue;
-//                    } else {
+                    int size = parcelController.findAll().size();
+                    if (size == 0) {
+                        System.out.println("Nothing to find");
+                        continue;
+                    } else {
                         nameOfReceiver();
-//                    }
+                    }
                     continue;
                 }
                 case 6: {
-//                    int size = parcelController.findAll().size();
-//                    if (size == 0) {
-//                        System.out.println("Nothing to find");
-//                        continue;
-//                    } else {
+                    int size = parcelController.findAll().size();
+                    if (size == 0) {
+                        System.out.println("Nothing to find");
+                        continue;
+                    } else {
                         nameOfSender();
-//                    }
+                    }
                     continue;
                 }
                 case 7: {
-//                    int size = parcelController.findAll().size();
-//                    if (size == 0) {
-//                        System.out.println("Nothing to find");
-//                        continue;
-//                    } else {
+                    int size = parcelController.findAll().size();
+                    if (size == 0) {
+                        System.out.println("Nothing to find");
+                        continue;
+                    } else {
                         idParcel();
-//                    }
+                    }
                     continue;
 
                 }
                 case 8: {
-//                    int size = parcelController.findAll().size();
-//                    if (size == 0) {
-//                        System.out.println("Nothing to find");
-//                        continue;
-//                    } else {
+                    int size = parcelController.findAll().size();
+                    if (size == 0) {
+                        System.out.println("Nothing to find");
+                        continue;
+                    } else {
                         stateParcel();
-//                    }
+                    }
                     continue;
                 }
 
