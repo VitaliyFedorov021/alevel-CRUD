@@ -8,7 +8,7 @@ public class ParcelServiceImpl implements ParcelService {
     @Override
     public void createParcel(Parcel parcel) {
         int size = parcelDao.findAll().size();
-        parcel.setId(++size * 1000);
+        parcel.setId(++size);
         parcelDao.createParcel(parcel);
     }
 

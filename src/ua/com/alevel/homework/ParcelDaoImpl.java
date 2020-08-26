@@ -14,15 +14,19 @@ public class ParcelDaoImpl implements ParcelDao {
 
     @Override
     public void updateParcel(Parcel parcel) throws IncorrectDataException {
+        boolean check = false;
         for (Parcel currentParcel :
                 parcels) {
             if (currentParcel.getId() == parcel.getId()) {
                 currentParcel.setNameOfReceiver(parcel.getNameOfReceiver());
                 currentParcel.setNameOfSender(parcel.getNameOfSender());
                 currentParcel.setPrice(parcel.getPrice());
+                check = true;
             }
         }
-        throw new RuntimeException("User not found");
+        if (!check) {
+            throw new RuntimeException("User not found");
+        }
 
     }
 
